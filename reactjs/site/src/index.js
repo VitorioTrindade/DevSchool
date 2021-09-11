@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import DevSchool from '../src/pages/devschool'
+import Routes from './routes'
 
 ReactDOM.render(
   <React.StrictMode>
-    <DevSchool />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );
