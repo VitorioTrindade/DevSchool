@@ -1,0 +1,307 @@
+body {
+    margin: 0px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container-devschool {
+    display: flex;
+    flex-direction: row;
+  
+    font-family: Roboto-Reg;
+  }
+  
+  .barra-lateral {
+    width: 22.2em;
+    height: 100vh;
+  
+    background-color: #2b3031;
+  
+    color: white;
+
+    position: sticky;
+    top: 0px;
+  }
+  
+  .logo-nome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    height: 5em;
+  }
+  
+  .logo {
+    margin-right: 0.3em;
+  }
+  
+  .logo img {
+    width: 21.33px;
+    height: 26.67px;
+  }
+  
+  .nome-dev {
+    font-family: Roboto-Reg;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+  
+  .nome-dev > a {
+    color: #ea10c7;
+  }
+  
+  .barra {
+    width: 22.2em;
+    height: 61px;
+  
+    background: #262626;
+  }
+  
+  .opcoes-gerenciamento {
+    display: flex;
+    flex-direction: row;
+  
+    padding: 1.3em 1em 1.2em 4em;
+  
+    width: 356px;
+    height: 61px;
+  }
+  
+  .texto-opcao {
+    margin-right: 9em;
+  
+    font: 1em Roboto-Reg;
+  }
+  
+  .lista-alunos {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  
+    height: 60px;
+  }
+  
+  .barra-esquerda {
+    width: 4px;
+    height: 60px;
+  
+    background-color: #db21bd;
+  }
+  
+  .texto-aluno {
+    color: black;
+    margin: 1.4em 3.7em 0em;
+    font: 1em Roboto-Reg;
+  }
+  
+  .conteudo {
+    width: 100%;
+  }
+  
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 1em 2em;
+  
+    width: 100%;
+  }
+  
+  .usu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #615858;
+  }
+  
+  .imagem-usu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.5em;
+  }
+  
+  .imagem-usu > img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+  }
+  
+  .bola-notificacao {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+  
+    background: #e911c6;
+    color: white;
+  }
+  
+  .cabecalho-esq {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .circulo-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+  
+    background: #986cdf;
+  
+    margin-left: 0.4em;
+  }
+  
+  .botao-recarregar,
+  .botao-sair {
+    margin-top: 0.2em;
+  }
+  
+  .tabelas-e-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 3em;
+    background: linear-gradient(0deg, #f5f5f5, #f5f5f5), #f5f5f5;
+  }
+  
+  .box-cadastro-editar {
+    background-color: #ffffff;
+    padding: 2em 8em 2em 2em;
+    margin-bottom: 2em;
+  
+    height: 12em;
+    width: 100%;
+  }
+  
+  .titulo-barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    margin-bottom: 1em;
+  }
+  
+  .barra-novo {
+    width: 26px;
+    height: 0px;
+  
+    border: 6px solid #986cdf;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+  
+    margin-right: 0.2em;
+  }
+  
+  .titulo-novo {
+    color: #3c3939;
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  
+  .inputs-botao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .inputs-botao div:nth-child(1) {
+    margin: 0em 4.25em 0.5em 1.55em !important;
+  }
+  
+  .campo-input {
+    margin: 0em 4em 0.5em 0em;
+  }
+  
+  .campo-input > input {
+    width: 13.06em;
+    height: 2.2em;
+  
+    background-color: #ffffff;
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+    outline: none;
+  }
+  
+  .botao-cadastro button {
+    background-color: #e911c6;
+    color: white;
+  
+    outline: none;
+    border-radius: 20px;
+    border: none;
+  
+    padding: 0.5em 0.7em;
+  }
+  
+  .box-tabela {
+    background-color: #ffffff;
+    padding: 2em;
+    width: 100%;
+  }
+  
+  .barra-tabela {
+    width: 26px;
+    height: 0px;
+  
+    border: 6px solid #986cdf;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+  
+    margin-right: 0.2em;
+  }
+  
+  .titulo-tabela {
+    color: #3c3939;
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  
+  .tabela-alunos {
+    border-collapse: collapse;
+  }
+  
+  table {
+    margin-top: 2em;
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #986cdf;
+  }
+  
+  tbody {
+    background-color: #f5f5f5;
+  }
+  
+  td {
+    text-align: left;
+    height: 61.93px;
+    padding: 1em;
+    color: #6d6868;
+    font-weight: 600;
+  }
+  
+  th {
+    height: 61.93px;
+    text-align: left;
+    padding: 1em;
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: Roboto-Reg;
+    src: url("../../public/fonts/Robo.ttf");
+  }
