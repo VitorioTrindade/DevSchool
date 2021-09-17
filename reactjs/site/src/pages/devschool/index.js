@@ -165,10 +165,7 @@ export default function DevSchool() {
                                     <td className="coluna-acao"> <button onClick={() => editar(item) }> <img src="/assets/images/edit.svg" alt="" /> </button> </td>
                                     <td className="coluna-acao"> <button onClick={() => remover(item.id_matricula) }> <img src="/assets/images/trash.svg" alt="" /> </button> </td>
                                </tr>
-                            )}
-
-                            
-                            
+                            )}   
                         </tbody>
                     </table>
                 </div>

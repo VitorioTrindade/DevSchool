@@ -154,7 +154,7 @@ const Conteudo = styled.div`
   td {
     text-align: left;
     height: 61.93px;
-    padding: 1em;
+    padding: .8em;
     color: #6d6868;
     font-weight: 600;
   }
@@ -162,7 +162,7 @@ const Conteudo = styled.div`
   th {
     height: 61.93px;
     text-align: left;
-    padding: 1em;
+    padding: .8em;
     color: #fff;
   }
 
