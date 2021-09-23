@@ -120,7 +120,7 @@ export default function DevSchool() {
                         <div className="campo-input"> Curso: <input type="text" value ={curso} onChange={e => setCurso(e.target.value)} /> </div>
                         <div className="campo-input"> Chamada: <input type="text" value ={chamada} onChange={e => setChamada(e.target.value)}/> </div>
                         <div className="campo-input"> Turma: <input type="text" value ={turma} onChange={e => setTurma(e.target.value)}/> </div>
-                        <div className="botao-cadastro"> <button onClick={inserir}> {idAlterando == 0 ? "Cadastrar" : "Alterar"} </button> </div>
+                        <div className="botao-cadastro"> <button onClick={inserir}> {idAlterando === 0 ? "Cadastrar" : "Alterar"} </button> </div>
                     </div>
                 </div>
                 <div className="box-tabela"> 
