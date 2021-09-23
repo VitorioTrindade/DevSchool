@@ -113,7 +113,7 @@ export default function DevSchool() {
                 <div className="box-cadastro-editar">
                     <div className="titulo-barra">
                     <div className="barra-novo"></div>
-                    <div className="titulo-novo"> {idAlterando == 0 ? "Novo Aluno" : "Alterando Aluno " + idAlterando} </div>
+                    <div className="titulo-novo"> {idAlterando === 0 ? "Novo Aluno" : "Alterando Aluno " + idAlterando} </div>
                     </div>
                     <div className="inputs-botao">
                         <div className="campo-input"> Nome: <input type="text" value ={nome} onChange={e => setNome(e.target.value)} /> </div>
@@ -144,7 +144,7 @@ export default function DevSchool() {
                         <tbody>
 
                             {alunos.map((item, i) =>
-                               <tr className={i % 2 == 0 ? "linha-alternada" : ""}>
+                               <tr className={i % 2 === 0 ? "linha-alternada" : ""}>
                                     <td> {item.id_matricula} </td>
                                     <td title={item.nm_aluno}>
                                        {item.nm_aluno != null && item.nm_aluno.length >= 25 
